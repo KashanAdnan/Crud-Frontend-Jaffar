@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: '__Inter_e66fe9', '__Inter_Fallback_e66fe9';
+  outline: 0;
+}
+
+.crud-dashboard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+}
+
+.crud-dashboard input {
+  padding: 16px 20px;
+  width: 70%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+.crud-dashboard button {
+  padding: 16px 30px;
+  border-radius: 5px;
+  font-size: 16px !important;
+  background-color: cornflowerblue;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  width: 70%;
+}
+
+.crud-show {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  display: flex;
+  width: 950px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  margin-bottom: 40px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+tr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  justify-content: center;
+}
+
+td {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+td:last-child {
+  border: 0;
+}
+
+td button {
+  padding: 15px 35px;
+  background-color: cornflowerblue;
+  border: 0;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  width: 100%;
+}
+
+.delete {
+  border: 0;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: cornflowerblue;
+  margin-top: 20px;
+}
